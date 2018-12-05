@@ -3,8 +3,10 @@ package com.bj.luevbus;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -32,10 +34,7 @@ public class TooActivity extends AppCompatActivity {
                 
             }
         });
-        
-        
-    
-
     }
+   
  
 }

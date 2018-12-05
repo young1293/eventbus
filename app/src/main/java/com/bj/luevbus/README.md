@@ -8,7 +8,11 @@ eventbus的优点：
 
 
 
+EventBus使用详解(一)——初步使用EventBus
+https://blog.csdn.net/harvic880925/article/details/40660137
 
+EventBus使用详解(二)——EventBus使用进阶
+https://blog.csdn.net/harvic880925/article/details/40787203
 
 /**************************************************************************************************************/
 http://greenrobot.org/eventbus/
@@ -27,6 +31,8 @@ Android事件总线（一）EventBus3.0用法全解析
 https://blog.csdn.net/itachi85/article/details/52205464
 Android事件总线（一）EventBus3.0用法全解析
 http://liuwangshu.cn/application/eventbus/1-eventbus.html
+
+
 
 
 

@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //第3步：发布活动
-           EventBus.getDefault().post(new MessageEvent("Hello everyone!"));
+          // EventBus.getDefault().post(new MessageEvent("Hello everyone!"));
              
                 Intent it=new Intent(getApplicationContext(),TooActivity.class);
                 startActivity(it);
@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
     public void onEventMainThread(MessageEvent event){
         String msg="接收到了消息："+event.message;
         Log.d("harvic",msg);
-        m_tv.setText(msg);
+         m_tv.setText(msg);
+     
         Toast.makeText(this,msg,Toast.LENGTH_SHORT).show();
 
     }
